@@ -1,0 +1,82 @@
+Welcome to Canopy's interactive data-analysis environment!
+Type '?' for more information.
+Python 2.7.11 | 64-bit | (default, Jun 11 2016, 11:33:47) [MSC v.1500 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 4.1.2 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+%run "C:\playground\Predict_400_DL\Python\Session3\Session 3 Module 1.py"
+
+%run "C:\playground\Predict_400_DL\Python\Session3\Session 3 Module 2.py"
+The dashed black line represents the objective function.
+Value of Objective Function at Each Corner Point:
+[[  0. ]
+ [  8. ]
+ [ 12. ]
+ [  8.5]
+ [  4.5]]
+Value of Objective Function at Each Corner Point:
+[[ 66.]
+ [ 36.]
+ [ 24.]
+ [ 30.]]
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support '-x+2y <= 4' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support '2x+y <= 4' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support 'x=1.5' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support '12 = 3x+4y' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)
+
+%run "C:\playground\Predict_400_DL\Python\Session3\Session 3 Module 3.py"
+Note that the dashed line passes through the optimum point
+Value of Objective Function at Each Corner Point
+[[ 30. ]
+ [ 16.5]
+ [ 30. ]]
+
+Minimization Problem
+obj
+[[  8.  16.]]
+transpose
+[[  8.]
+ [ 16.]]
+corners
+[[0 5]
+ [4 1]
+ [9 0]]
+Value of Objective Function at Each Corner Point
+[[ 80.]
+ [ 48.]
+ [ 72.]]
+
+Maximization Problem
+Value of Objective Function at Each Corner Point
+[[ 40. ]
+ [ 48. ]
+ [ 28.8]]
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support 'x+3y >= 15' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support '3x+y >= 10' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)
+C:\playground\Canopy\User\lib\site-packages\matplotlib\legend.py:633: UserWarning: Legend does not support '16.5 = 2x+3y' instances.
+A proxy artist may be used instead.
+See: http://matplotlib.org/users/legend_guide.html#using-proxy-artist
+  "#using-proxy-artist".format(orig_handle)

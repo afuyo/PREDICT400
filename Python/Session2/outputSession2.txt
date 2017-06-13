@@ -1,0 +1,110 @@
+Welcome to Canopy's interactive data-analysis environment!
+Type '?' for more information.
+Python 2.7.11 | 64-bit | (default, Jun 11 2016, 11:33:47) [MSC v.1500 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 4.1.2 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+%run "C:\playground\Predict_400_DL\Python\Session2\Session 2 Module 1.py"
+
+%run "C:\playground\Predict_400_DL\Python\Session2\Session 2 Module 2.py"
+
+Value at first location:  1
+Value at third location:  3
+Value located using negative index:  2 
+
+Comparison of a concatenated list with an array 
+r= [4, 5, 6] and t= [1, 2, 3] 
+
+Concatenation example using t and r lists.  [1, 2, 3, 4, 5, 6]
+
+Comparison of concatenation with array([t,r]).
+[[1 2 3]
+ [4 5 6]]
+
+The second element of the preceding list and array
+2
+[4 5 6]
+
+Slicing to produce an element, a column and a row of the array
+2
+[2 5]
+[4 5 6]
+
+Example 1 Section 2.3 Lial showing array addition from page 72.
+
+Arrays in order: m , n and m+n
+[[10 12  5]
+ [15 20  8]]
+
+[[45 35 20]
+ [65 40 35]]
+
+[[55 47 25]
+ [80 60 43]]
+
+Subtraction of n from m equals q
+[[-35 -23 -15]
+ [-50 -20 -27]]
+
+Multiplication of q by a scalar 2.0
+[[ -70.  -46.  -30.]
+ [-100.  -40.  -54.]]
+
+Functions can be applied to an array such as absolute value
+[[  70.   46.   30.]
+ [ 100.   40.   54.]]
+
+Furniture Shipments
+[[17 15 30]
+ [20 20 20]]
+
+%run "C:\playground\Predict_400_DL\Python\Session2\Session 2 Module 3.py"
+
+Right Hand Side of Equation
+[[96]
+ [87]
+ [74]]
+
+Matrix A
+[[1 3 4]
+ [2 1 3]
+ [4 2 1]]
+
+Inverse of A
+[[-0.2  0.2  0.2]
+ [ 0.4 -0.6  0.2]
+ [ 0.   0.4 -0.2]]
+
+Identity Matrix
+[[0 0 0]
+ [0 1 0]
+ [0 0 1]]
+
+Solution to Problem
+[[12]
+ [ 1]
+ [20]]
+
+Illustration of solution with linalg.solve(,) function
+[[13]
+ [ 1]
+ [20]]
+
+Example of an inverse matrix for inconsistent equations
+[[ -1.68884986e+15  -1.68884986e+15   3.37769972e+15]
+ [  3.37769972e+15   3.37769972e+15  -6.75539944e+15]
+ [ -1.68884986e+15  -1.68884986e+15   3.37769972e+15]]
+
+Example 2
+[[ 0.          0.          0.33333333]
+ [-0.5        -0.5         0.5       ]
+ [ 1.          0.         -0.33333333]]
+
+ Example 4
+[[2]
+ [0]]

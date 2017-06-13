@@ -1,0 +1,12 @@
+%run "C:\playground\Predict_400_DL\Python\Session1\Session 1 Module 2.py"
+
+linear equation construction
+
+slope of line =  0.4
+
+Value of y if x is 1.0 equals 2.4
+
+Equation of a line is y = y1 + slope*(x-x1)
+
+x1 equals 5.0 and y1 equals 4.0 
+Correlation coefficient r on accidental death rates is r = -0.941

@@ -1,0 +1,61 @@
+Welcome to Canopy's interactive data-analysis environment!
+Type '?' for more information.
+Python 2.7.11 | 64-bit | (default, Jun 11 2016, 11:33:47) [MSC v.1500 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 4.1.2 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+%run "C:\playground\Predict_400_DL\Python\Session4\Session 4 Module 1.py"
+
+Union of A and B = set([1, 2, 4, 5, 7, 9, 11]) 
+
+Intersection of A and B = set([2, 4, 5, 7]) 
+
+A complement = set([3, 6, 8, 9, 10, 11]) 
+B complement = set([8, 1, 10, 3, 6]) 
+
+Symmetric difference of A and B =               set([1, 9, 11]) 
+Symmetric difference by union and intersection = set([1, 11, 9]) 
+
+Union of Ac, Bc and AB  set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]) 
+Original set U was      set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]) 
+Updated version of U =  set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]) 
+
+Original version of U = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]) 
+
+U is now a list. [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+6a. Find A intersection B: set([6])
+6b. Find A intersection B`: set([9, 3])
+7a Find A union B: set([1, 3, 5, 6, 7, 9, 11, 12])
+7b Find (A union B) intersection C`: set([9, 11, 12, 6, 7])
+
+%run "C:\playground\Predict_400_DL\Python\Session4\Session 4 Module 2.py"
+The universe U is set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]) 
+
+A is set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
+B is set([14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+C is set([8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+
+Probability of null intersection 0.0 
+
+Intersection of A and C is set([8, 9, 10, 11, 12, 13])
+Union of A and C set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
+
+Probability of A union C = 0.769 
+
+Result of Union Rule Summation =  0.769
+
+Complement of C is set([1, 2, 3, 4, 5, 6, 7, 21, 22, 23, 24, 25, 26])
+Odds of C are 1.0
+
+Complement of A intersection C is set([1, 2, 3, 4, 5, 6, 7, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+Odds of A intersection C are 0.3
+
+Conditional probability of A given C is 0.462
+Probability of A and C intersection is 0.231
+Probability of C is 0.5
+Product rule result for A and C intersection is 0.231

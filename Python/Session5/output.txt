@@ -1,0 +1,46 @@
+Welcome to Canopy's interactive data-analysis environment!
+Type '?' for more information.
+
+
+%run "C:\playground\Predict_400_DL\Python\Session5\Session 5 Module 1.py"
+Enter a positive integer to obtain the factorial value.
+Enter a negative integer to stop.
+In either case, hit enter or the code will not work.
+
+1
+Factorial of 1 is equal to 1
+
+Permutation of 10 elements taken 5 at a time = 30240
+
+Combination of 10 elements taken 5 at a time = 252
+
+Example 3, 3 letters is 6
+Example 3, two of three letters is 6
+Example 9, Mississippi is 34650
+Example 3, Sales is 120
+
+%run "C:\playground\Predict_400_DL\Python\Session5\Session 5 Module 2.py"
+In each instance, hit enter after submitting the requested number.
+Enter a positive integer for the number of repeated trials.
+
+6
+Enter the number of successes.
+
+3
+Enter the probability of success.
+
+.59
+Binomial probability with n= 6, k= 3, p= 0.59 is 0.28309852118
+
+Binomial distribution with 6 trials and p= 0.59 follows.
+
+# of successes= 0 probability= 0.0048 
+# of successes= 1 probability= 0.0410 
+# of successes= 2 probability= 0.1475 
+# of successes= 3 probability= 0.2831 
+# of successes= 4 probability= 0.3055 
+# of successes= 5 probability= 0.1759 
+# of successes= 6 probability= 0.0422 
+Example 2 College Students 0.2831
+Example 3 Coin Toss 0.03125
+
